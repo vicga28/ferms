@@ -6,7 +6,7 @@ import io
 ### Aquest script serveix per obtenir un llistat dels trams de carretera per sota un valor llindar de CRT per així poder determinar quins trams seran subjecte de reparacions puntuals
 
 # Càrrega d'arxiu amb valors CRT
-df = pd.read_csv('CRT.csv', delimiter=";")
+df = pd.read_csv('CRT_2.csv', delimiter=";")
 
 # Adaptació dels valors de l'arxiu per al seu tractament
 df['PKI'] = pd.to_numeric(df['PKI'], errors='coerce')
@@ -140,4 +140,5 @@ if submitted:
     excel = convert_for_download(df_result)
     st.download_button(label='Descarregar fitxer', data=excel, file_name='resultats.xlsx', mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
                        icon=":material/download:")
+
 
