@@ -4,3 +4,4 @@ numpy
 XlsxWriter
 seaborn
 matplotlib
+openpyxl
