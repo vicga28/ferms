@@ -529,9 +529,9 @@ with tab2:
 
 index_belgica = pd.DataFrame()
 
-path_belgica = 'C:\\Users\\gullonav\\Desktop\\Ferms\\App\\data\\index_belgica.csv'
-path_espanya_puntual = 'C:\\Users\\gullonav\\Desktop\\Ferms\\App\\data\\index_espanya_puntual.xlsx'
-path_espanya_medio = 'C:\\Users\\gullonav\\Desktop\\Ferms\\App\\data\\index_espanya_medio.xlsx'
+path_belgica = 'data/index_belgica.csv'
+path_espanya_puntual = 'data/index_espanya_puntual.xlsx'
+path_espanya_medio = 'data/index_espanya_medio.xlsx'
 
 
 # Càrrega d'arxiu amb valors CRT
@@ -554,5 +554,6 @@ with tab3:
         st.dataframe(df_espanya_medio,use_container_width=False , hide_index=True)
 
             
+
 
 
