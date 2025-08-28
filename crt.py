@@ -523,7 +523,7 @@ with tab2:
         # st.write(f"Coeficient de correlació entre CRT mig i Accidents: {corr_acc:.3f}")
         df_corr_acc.append({'>= Accidents':n, 'Correlació amb CRT':corr_acc, 'Població':len(df_accidents)})
     
-    st.dataframe(df_corr_acc,use_container_width=False , hide_index=True)
+    # st.dataframe(df_corr_acc,use_container_width=False , hide_index=True)
 
 
 
@@ -554,6 +554,7 @@ with tab3:
         st.dataframe(df_espanya_medio,use_container_width=False , hide_index=True)
 
             
+
 
 
 
