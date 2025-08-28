@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import math
 
-st.set_page_config(layout='wide', page_title='Carreteres', page_icon='data\\road-icon.png')
+st.set_page_config(layout='wide', page_title='Carreteres', page_icon='data/road-icon.png')
 
 ### Aquest script serveix per obtenir un llistat dels trams de carretera per sota un valor llindar de CRT per així poder determinar quins trams seran subjecte de reparacions puntuals
 
@@ -554,6 +554,7 @@ with tab3:
         st.dataframe(df_espanya_medio,use_container_width=False , hide_index=True)
 
             
+
 
 
 
