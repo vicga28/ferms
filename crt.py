@@ -11,14 +11,14 @@ st.set_page_config(layout='wide', page_title='Carreteres', page_icon='data\\road
 ### Aquest script serveix per obtenir un llistat dels trams de carretera per sota un valor llindar de CRT per així poder determinar quins trams seran subjecte de reparacions puntuals
 
 # Ruta de l'arxiu amb els valors CRT
-path_crt = 'data\\CRT_2.csv'
-path_imd = 'data\\Última IMD.csv'
-path_accidents = 'data\\Accidents 2023.csv'
-path_traçat_0 = 'data\\Parametrització en planta_no_BV.csv'
-path_traçat_1 = 'data\\Parametrització en planta_BV_1.csv'
-path_traçat_2 = 'data\\Parametrització en planta_BV_2-4.csv'
-path_traçat_3 = 'data\\Parametrització en planta_BV_5-9.csv'
-path_trams = 'data\\Trams Catàleg Oficial.csv'
+path_crt = 'data/CRT_2.csv'
+path_imd = 'data/Última IMD.csv'
+path_accidents = 'data/Accidents 2023.csv'
+path_traçat_0 = 'data/Parametrització en planta_no_BV.csv'
+path_traçat_1 = 'data/Parametrització en planta_BV_1.csv'
+path_traçat_2 = 'data/Parametrització en planta_BV_2-4.csv'
+path_traçat_3 = 'data/Parametrització en planta_BV_5-9.csv'
+path_trams = 'data/Trams Catàleg Oficial.csv'
 
 
 # Càrrega d'arxiu amb valors CRT
@@ -554,4 +554,5 @@ with tab3:
         st.dataframe(df_espanya_medio,use_container_width=False , hide_index=True)
 
             
+
 
